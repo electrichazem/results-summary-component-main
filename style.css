@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: myFont;
+    src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: myFont;
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    height: 420px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+}
+
+.score {
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #603EFC ;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.score h3 {
+    color: #5F3FFC;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.score .degre {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,#4A24CF 50% , #4634ee54);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.score .degre h1 {
+    font-size: 72px;
+}
+.score .degre h4 {
+    font-size: 16px;
+    color: #796AF8;
+}
+
+.score h1 {
+    color: white;
+}
+
+.score p {
+    font-size: 18px;
+    color: #B3A1FF;
+}
+
+.score h3 {
+    color: #C7BAFF;
+    font-weight: 300;
+    font-size: 14px;
+    width: 70%;
+    margin: 10px auto;
+    line-height: 19px;
+}
+
+.container .summary h2 {
+    color: #262A35;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .summary {
+    width: 300px;
+    padding: 20px;
+}
+
+.container .summary .box {
+    width: 90%;
+    margin: 15px auto 0px auto;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.container  .summary .reaction {
+    background-color: #FFF6F5;
+    font-weight: bold;
+    color: #C1686B;
+}
+
+.container .summary .memory {
+    background-color: #FFFBF2;
+    font-weight: bold;
+    color: #D7B670;
+}
+
+.container .summary .verbal {
+    background-color: #F2FBFA;
+    font-weight: bold;
+    color: #4DA493;
+}
+
+.container .summary .visual {
+    background-color: #F3F3FD;
+    font-weight: bold;
+    color: #3547d3;
+}
+
+.container .summary .num {
+    color: gray;
+    font-weight: 400 !important;
+}
+
+.container .summary .num span {
+    font-weight: bold;
+    color: #3E4151;
+}
+
+.container .summary svg {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+button {
+    width: 90%;
+    display: block;
+    margin: 45px auto 0px auto;
+    background-color: #2F3755;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
